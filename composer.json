@@ -1,0 +1,19 @@
+{
+    "name": "rodri/bienesraices",
+    "description": "Creando un proyecto con POO",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Rodrigo Farias",
+            "email": "rodrigo.javi@hotmail.com"
+        }
+    ],
+    "require": {
+        "intervention/image": "^2.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\":"classes"
+        }
+    }
+}

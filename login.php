@@ -1,6 +1,6 @@
 <?php 
 
-    require 'includes/config/database.php';
+    require 'includes/app.php';
     $db = conectarDB();
     // Autenticar el usuario
 
@@ -50,7 +50,7 @@
                     $_SESSION['login'] = true;
 
      
-                    header('Location: /admin');
+                    header('Location: /bienesraices/admin');
 
                 } else {
                     $errores[] = 'El password es incorrecto';
@@ -65,7 +65,7 @@
 
 
     // Incluye el header
-    require 'includes/funciones.php';
+    
     incluirTemplate('header');
 ?>
 
