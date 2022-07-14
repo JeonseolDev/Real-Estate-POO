@@ -99,7 +99,7 @@
                 <blockquote>
                     El personal se comportó de una excelente forma, muy buena atención y la casa que me ofrecieron cumple con todas mis expectativas.
                 </blockquote>
-                <p>- Juan De la torre</p>
+                <p>- RF</p>
             </div>
         </section>
     </div>
